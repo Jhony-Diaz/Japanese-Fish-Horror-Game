@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Start Screen</title>
+</head>
+<body>
+    <main id="start-main-content">
+        <h1>Game Title</h1>
+
+        
+            <form id="saved-word-form">
+
+            <div id="wrapper-for-inputs">
+             <div id="japanese-word-form">
+             
+                    <label for="japanese-word">For The Japanese Word!</label>
+                    <input type="text" 
+                    placeholder="Type Japanese Word in here pls ;)"
+                    id="japanese-word"
+                    required>
+            </div>
+
+                <div id="english-word-form">
+                    <label for="english-word">For English Word</label>
+                    <input type="text"
+                         placeholder="Enter the English word here bud!"
+                           id="english-word"
+                            required>
+                </div>
+
+                </div>
+
+             
+                     <button type="submit">Save Word</button>
+                
+                
+
+               </form>
+        
+       
+     
+        <!-- Words that are inputed into the form will save here -->
+         <section id="saved-words-wrapper">
+            <h2>Saved Words</h2>
+            <ul id="saved-words">
+               
+
+            </ul>
+         </section>
+     
+
+        <button id="start-game">Start Game</button>
+    </main>
+    
+
+    <script type="module" src="home.js"></script>
+</body>
+</html>
